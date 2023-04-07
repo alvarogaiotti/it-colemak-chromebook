@@ -1,0 +1,22 @@
+{
+  "name": "Colemak-IT",
+  "version": "0.1",
+  "manifest_version": 3,
+  "description": "Italian Colemak keyboard",
+  "background": {
+    "service_workers": ["background.js"]
+  },
+  "permissions": [
+    "input"
+  ],
+  "input_components": [
+    {
+      "name": "Colemak-IT",
+      "type": "ime",
+      "id": "ColemakItalian",
+      "description": "Italian Colemak keyboard",
+      "language": "it-IT",
+      "layouts": ["it"]
+    }
+  ]
+}
